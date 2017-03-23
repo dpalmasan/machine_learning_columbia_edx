@@ -6,7 +6,7 @@ This project consisted on implementing Bayes Classification, making an iid assum
 
 
 
-##To execute the code:
+## To execute the code:
 
 `python hw2_classification.py <X_train.csv> <y_train.csv> <X_test.csv>`
 

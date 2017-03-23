@@ -14,7 +14,7 @@ This project consisted on implementing Ridge Regression algorithm and an active 
 
 
 
-##To execute the code:
+## To execute the code:
 
 `python hw1_regression.py lambda sigma2 <X_train.csv> <y_train.csv> <X_test.csv>`
 
