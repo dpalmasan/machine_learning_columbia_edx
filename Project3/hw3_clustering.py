@@ -155,7 +155,7 @@ def EM_GMM(X, K=5, maxit=10, saveLog=True):
                         for j in xrange(cov_k.shape[1] - 1):
                             f.write(str(cov_k[i, j]) + ',')
                         f.write(str(cov_k[i, cov_k.shape[1] - 1]) + '\n')
-    return (pi, mu, sigma)
+    return (pi, mu, sigma, phi)
 
 
 if __name__ == '__main__':
@@ -168,4 +168,4 @@ if __name__ == '__main__':
 
     # Apply clustering techniques
     (c, mu, it) = KMeans(X)
-    (pi, mu, sigma) = EM_GMM(X)
+    (pi, mu, sigma, phi) = EM_GMM(X)
